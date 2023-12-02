@@ -1,0 +1,1626 @@
+/*
+	@name desktop___1
+*/
+/* Only edit this if you know what you are doing! */
+body {
+	font-family: "Arial";
+	overflow-x: hidden;
+}
+
+/* Only edit this if you know what you are doing! */
+
+
+/* Only edit this if you know what you are doing! */
+div {
+	position: absolute;
+}
+
+a{
+	text-decoration: none;
+}
+
+#jeki {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+  }
+
+#content-container {
+	display: block;
+	position: relative;
+	width: 1265px;
+	width: 1265px;
+	height: 3000px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+  }
+
+  #login-box {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+  }
+
+  #my_account {
+	cursor: pointer;
+	color: #007bff;
+  }
+
+#_bg__desktop___1 {
+	top: 0px;
+	left: 0px;
+	width: 1265px;
+	height: 3000px;
+	background: rgba(255, 255, 255, 1);
+}
+
+img {
+	position: absolute;
+	display: block;
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
+
+
+.search-container {
+      position: absolute;
+	  top: -3px;
+	left: 985px;
+    }
+
+	
+
+    .search-box {
+      width: 0;
+      padding: 14px;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      transition: width 0.3s ease-out;
+    }
+
+    .search-icon {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+    .search-box:focus {
+      width: 200px;
+    }
+
+#tes {
+	top: 1070px;
+	left: 86px;
+	width: 201.4px;
+	height: 29.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek1 {
+	top: 1373px;
+	left: 86px;
+	width: 201.4px;
+	height: 29.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek2 {
+	top: 1070px;
+	left: 328px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek3 {
+	top: 1373px;
+	left: 328px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek4 {
+	top: 1070px;
+	left: 567px;
+	width: 189.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek5 {
+	top: 1373px;
+	left: 567px;
+	width: 189.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek6 {
+	top: 1070px;
+	left: 805px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek7 {
+	top: 1373px;
+	left: 805px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek8 {
+	top: 1070px;
+	left: 1044px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek9 {
+	top: 1373px;
+	left: 1044px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00 {
+	top: 1092px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek1 {
+	top: 1395px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek2 {
+	top: 1092px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek3 {
+	top: 1395px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek4 {
+	top: 1092px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek5 {
+	top: 1395px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek6 {
+	top: 1092px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek7 {
+	top: 1395px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek8 {
+	top: 1092px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek9 {
+	top: 1395px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek10 {
+	top: 1092px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek11 {
+	top: 1395px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek12 {
+	top: 1092px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek13 {
+	top: 1395px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek14 {
+	top: 1092px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek15 {
+	top: 1395px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek16 {
+	top: 1092px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek17 {
+	top: 1395px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek18 {
+	top: 1092px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek19 {
+	top: 1395px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#user_8647311_1 {
+	top: 18px;
+	left: 1094px;
+	width: 26px;
+	height: 26px;
+	position: relative;
+}
+
+
+#my_account {
+	top: 21px;
+	left: 1127px;
+	width: 128px;
+	height: 29px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+}
+
+#group_3 {
+	top: 702px;
+	left: 467px;
+	width: 330px;
+	height: 76px;
+}
+
+#_bg__group_3_ek1 {
+	top: -702px;
+	left: -467px;
+	width: 330px;
+	height: 76px;
+	background: #;
+}
+
+
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
+	top: 59px;
+	left: 0px;
+	width: 347px;
+	height: 23px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#new_arrivals {
+	top: 0px;
+	left: 60px;
+	width: 216.2px;
+	height: 47.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+#group_5 {
+	top: 1545px;
+	left: 467px;
+	width: 330px;
+	height: 76px;
+}
+
+#_bg__group_5_ek1 {
+	top: -1545px;
+	left: -467px;
+	width: 330px;
+	height: 76px;
+	background: #;
+}
+
+
+#aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_ek1 {
+	top: 59px;
+	left: 0px;
+	width: 347px;
+	height: 23px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#chart_toppers {
+	top: 0px;
+	left: 60px;
+	width: 239.2px;
+	height: 47.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+#group_2 {
+	top: 18px;
+	left: 466px;
+	width: 333px;
+	height: 23px;
+}
+
+#_bg__group_2_ek1 {
+	top: -18px;
+	left: -466px;
+	width: 333px;
+	height: 23px;
+	background: #;
+}
+
+
+#home {
+	top: 0px;
+	left: 0px;
+	width: 74px;
+	height: 29px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#shop {
+	top: 0px;
+	left: 127px;
+	width: 66px;
+	height: 29px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#about_us {
+	top: 0px;
+	left: 246px;
+	width: 104px;
+	height: 29px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#vector_1 {
+	top: 66px;
+	left: 20px;
+	width: 1225px;
+	height: 1px;
+}
+
+
+#vector_3 {
+	top: 6.5px;
+	left: 895.5px;
+	width: 1px;
+	height: 43.5px;
+}
+
+
+
+
+
+#led_zeppelin_logo_1 {
+	top: 13px;
+	left: 16px;
+	width: 125px;
+	height: 35px;
+}
+
+
+#iv_symbols_tickets_black_hood_1 {
+	top: 838px;
+	left: 58px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#led_zeppelin_hermit_black_t_shirt_1 {
+	top: 870px;
+	left: 535px;
+	width: 191px;
+	height: 191px;
+}
+
+
+#logo_symbols_dark_tie_dye_hood_1 {
+	top: 862px;
+	left: 760px;
+	width: 205px;
+	height: 208px;
+}
+
+
+#_2400085_1 {
+	top: 131px;
+	left: 833px;
+	width: 356px;
+	height: 462px;
+}
+
+#group_4 {
+	top: 239px;
+	left: 1011px;
+	width: 318px;
+	height: 69px;
+	transform: rotate(-90deg);
+}
+
+#_bg__group_4_ek1 {
+	top: -239px;
+	left: -1011px;
+	width: 318px;
+	height: 69px;
+
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	background: #;
+}
+
+
+#rectangle_1 {
+	top: -124px;
+	left: 124px;
+	width: 69px;
+	height: 318px;
+	-ms-border-radius: 18px;
+	-o-border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	border-radius: 18px;
+	background: rgba(255, 255, 255, 1);
+}
+
+
+#get_your_style {
+	top: 8px;
+	left: 20px;
+	width: 307px;
+	height: 60px;
+	overflow: hidden;
+
+	-ms-transform: rotate(-0deg);
+	-o-transform: rotate(-0deg);
+	-webkit-transform: rotate(-0deg);
+	-moz-transform: rotate(-0deg);
+	transform: rotate(-0deg);
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+
+
+
+#iv_illustration_track_list_black_longsleeve_tee_1 {
+	top: 857px;
+	left: 302px;
+	width: 199px;
+	height: 211px;
+}
+
+
+#shopping_cart_2838895_1 {
+	top: 15px;
+	left: 1042px;
+	width: 33px;
+	height: 33px;
+}
+
+
+#japanese_icarus_black_longsleeve_tee_1 {
+	top: 874px;
+	left: 1017px;
+	width: 194px;
+	height: 194px;
+}
+
+
+#iv_illustration_track_list_black_longsleeve_tee_2 {
+	top: 1165px;
+	left: 302px;
+	width: 199px;
+	height: 211px;
+}
+
+
+#japanese_icarus_black_longsleeve_tee_2 {
+	top: 1182px;
+	left: 1017px;
+	width: 194px;
+	height: 194px;
+}
+
+
+#led_zeppelin_hermit_black_t_shirt_1_ek1 {
+	top: 1178px;
+	left: 535px;
+	width: 191px;
+	height: 191px;
+}
+
+
+#logo_symbols_dark_tie_dye_hood_1_ek1 {
+	top: 1170px;
+	left: 760px;
+	width: 205px;
+	height: 208px;
+}
+
+
+#iv_symbols_tickets_black_hood_1_ek1 {
+	top: 1146px;
+	left: 58px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#tes_ek10 {
+	top: 1917px;
+	left: 86px;
+	width: 201.4px;
+	height: 29.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek11 {
+	top: 1917px;
+	left: 328px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek12 {
+	top: 1917px;
+	left: 567px;
+	width: 189.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek13 {
+	top: 1917px;
+	left: 805px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek14 {
+	top: 1917px;
+	left: 1044px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek20 {
+	top: 1939px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek21 {
+	top: 1939px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek22 {
+	top: 1939px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek23 {
+	top: 1939px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek24 {
+	top: 1939px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek25 {
+	top: 1939px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek26 {
+	top: 1939px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek27 {
+	top: 1939px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek28 {
+	top: 1939px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek29 {
+	top: 1939px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#rectangle_2 {
+	top: 419px;
+	left: 725px;
+	width: 175px;
+	height: 175px;
+}
+
+
+#products_2fs60_z120_ultr_2fs60_z120_ultr_1698312741220_316x316_crop_bottom_1 {
+	top: 422px;
+	left: 821px;
+	width: 58px;
+	height: 58px;
+}
+
+
+#_20__off_all_product {
+	top: 528px;
+	left: 740px;
+	width: 170px;
+	height: 68px;
+	
+	font-family: Raleway;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+#diskonoff {
+	top: 540px;
+	left: 740px;
+	width: 170px;
+	height: 68px;
+	
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+#diskon20 {
+	top: 540px;
+	left: 740px;
+	width: 170px;
+	height: 68px;
+	
+	font-family: Raleway;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#products_2ff03_233_0204_900_2ff03_233_0204_900_1573456261840_336x336_crop_center_1 {
+	top: 422px;
+	left: 750px;
+	width: 58px;
+	height: 58px;
+}
+
+
+#products_2ft33_000_ckr00_2ft33_000_ckr00_1577078230710_336x336_crop_center_1 {
+	top: 478px;
+	left: 750px;
+	width: 58px;
+	height: 58px;
+}
+
+
+#products_2ft03_tcb01nb_2ft03_tcb01nb_1588133277570_316x316_crop_bottom_1 {
+	top: 478px;
+	left: 821px;
+	width: 58px;
+	height: 58px;
+}
+
+
+#rectangle_3 {
+	top: 132px;
+	left: 86px;
+	width: 619px;
+	height: 240px;
+	background: rgba(0, 0, 0, 1);
+}
+
+
+#chart_toppers_ek1 {
+	top: 174px;
+	left: 506px;
+	width: 174px;
+	height: 115px;
+	overflow: hidden;
+	font-family: Josefin Slab;
+	font-size: 50px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+#explore_now {
+	top: 291px;
+	left: 537px;
+	width: 119px;
+	height: 26px;
+	overflow: hidden;
+	font-family: Josefin Slab;
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+#_1413414_1 {
+	top: 132px;
+	left: 170px;
+	width: 337px;
+	height: 240px;
+}
+
+
+#pxfuel_removebg_preview_1 {
+	top: 132px;
+	left: 86px;
+	width: 237px;
+	height: 240px;
+}
+
+
+#strut_in_style__jam_with_passion_your_signature_journey_starts_here_ {
+	top: 420px;
+	left: 88px;
+	width: 606px;
+	height: 67px;
+	
+	font-family: Raleway;
+	font-size: 40px;
+	text-align: center;
+	color:#000000;
+
+}
+
+
+#e09_ebemebnh1_0_1 {
+	top: 1675px;
+	left: 44px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#e09_enbebch1_001_158x158_crop_center_1 {
+	top: 1811px;
+	left: 315px;
+	width: 158px;
+	height: 158px;
+	background: rgba(255, 255, 255, 0);
+}
+
+
+#e09_enbebch1_001_316x316_crop_center2_1 {
+	top: 1675px;
+	left: 275px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#products_2fe09_egsvebvch1_2fe09_egsvebvch1_1624862517600_316x316_crop_center2_1 {
+	top: 1682px;
+	left: 501px;
+	width: 247px;
+	height: 235px;
+}
+
+
+#products_2ff03_037_0910_506_2ff03_037_0910_506_1647917291720_336x336_crop_center_1 {
+	top: 1665px;
+	left: 725px;
+	width: 275px;
+	height: 252px;
+}
+
+
+#products_2fn06_10_000_2fn06_10_000_1669707361330_336x336_crop_center_1 {
+	top: 1724px;
+	left: 1012px;
+	width: 198px;
+	height: 174px;
+}
+
+
+#e09_ebemebnh1_0_2 {
+	top: 1675px;
+	left: 44px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#e09_enbebch1_001_158x158_crop_center_2 {
+	top: 1811px;
+	left: 315px;
+	width: 158px;
+	height: 158px;
+	background: rgba(255, 255, 255, 0);
+}
+
+
+#e09_enbebch1_001_316x316_crop_center2_2 {
+	top: 1675px;
+	left: 275px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#products_2fe09_egsvebvch1_2fe09_egsvebvch1_1624862517600_316x316_crop_center2_2 {
+	top: 1682px;
+	left: 501px;
+	width: 247px;
+	height: 235px;
+}
+
+
+#products_2ff03_037_0910_506_2ff03_037_0910_506_1647917291720_336x336_crop_center_2 {
+	top: 1665px;
+	left: 725px;
+	width: 275px;
+	height: 252px;
+}
+
+
+#products_2fn06_10_000_2fn06_10_000_1669707361330_336x336_crop_center_2 {
+	top: 1724px;
+	left: 1012px;
+	width: 198px;
+	height: 174px;
+}
+
+
+#tes_ek15 {
+	top: 2268px;
+	left: 86px;
+	width: 201.4px;
+	height: 29.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek16 {
+	top: 2268px;
+	left: 328px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek17 {
+	top: 2268px;
+	left: 567px;
+	width: 189.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek18 {
+	top: 2268px;
+	left: 805px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#tes_ek19 {
+	top: 2268px;
+	left: 1044px;
+	width: 190.4px;
+	height: 27.4px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 24px;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek30 {
+	top: 2290px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek31 {
+	top: 2290px;
+	left: 89px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek32 {
+	top: 2290px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek33 {
+	top: 2290px;
+	left: 328px;
+	width: 137.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek34 {
+	top: 2290px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek35 {
+	top: 2290px;
+	left: 567px;
+	width: 138.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek36 {
+	top: 2290px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek37 {
+	top: 2290px;
+	left: 805px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek38 {
+	top: 2290px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#__84_00_ek39 {
+	top: 2290px;
+	left: 1044px;
+	width: 139.2px;
+	height: 45.2px;
+	overflow: hidden;
+	font-family: Raleway;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+
+#e09_ebemebnh1_0_3 {
+	top: 2026px;
+	left: 44px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#e09_enbebch1_001_158x158_crop_center_3 {
+	top: 2162px;
+	left: 315px;
+	width: 158px;
+	height: 158px;
+	background: rgba(255, 255, 255, 0);
+}
+
+
+#e09_enbebch1_001_316x316_crop_center2_3 {
+	top: 2026px;
+	left: 275px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#products_2fe09_egsvebvch1_2fe09_egsvebvch1_1624862517600_316x316_crop_center2_3 {
+	top: 2033px;
+	left: 501px;
+	width: 247px;
+	height: 235px;
+}
+
+
+#products_2ff03_037_0910_506_2ff03_037_0910_506_1647917291720_336x336_crop_center_3 {
+	top: 2016px;
+	left: 725px;
+	width: 275px;
+	height: 252px;
+}
+
+
+#products_2fn06_10_000_2fn06_10_000_1669707361330_336x336_crop_center_3 {
+	top: 2075px;
+	left: 1012px;
+	width: 198px;
+	height: 174px;
+}
+
+
+#e09_ebemebnh1_0_4 {
+	top: 2026px;
+	left: 44px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#e09_enbebch1_001_158x158_crop_center_4 {
+	top: 2162px;
+	left: 315px;
+	width: 158px;
+	height: 158px;
+	background: rgba(255, 255, 255, 0);
+}
+
+
+#e09_enbebch1_001_316x316_crop_center2_4 {
+	top: 2026px;
+	left: 275px;
+	width: 219px;
+	height: 232px;
+}
+
+
+#products_2fe09_egsvebvch1_2fe09_egsvebvch1_1624862517600_316x316_crop_center2_4 {
+	top: 2033px;
+	left: 501px;
+	width: 247px;
+	height: 235px;
+}
+
+
+#products_2ff03_037_0910_506_2ff03_037_0910_506_1647917291720_336x336_crop_center_4 {
+	top: 2016px;
+	left: 725px;
+	width: 275px;
+	height: 252px;
+}
+
+
+#products_2fn06_10_000_2fn06_10_000_1669707361330_336x336_crop_center_4 {
+	top: 2075px;
+	left: 1012px;
+	width: 198px;
+	height: 174px;
+}
+
+
+
+/* Add your custom CSS here */
